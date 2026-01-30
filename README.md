@@ -78,10 +78,10 @@ We provide a Jupyter notebook demonstrating how to use `SanskritBERT` for Questi
 If you use this model in your research, please cite:
 
 ```bibtex
-@misc{sanskritbert2024,
+@misc{sanskritbert2026,
   title={SanskritBERT: A Light Transformer Model for Sanskrit},
   author={[Tanuj Saxena, Soumya Sharma, Kusum Lata]},
-  year={2024},
+  year={2026},
   howpublished={\url{https://huggingface.co/tanuj437/SanskritBERT}},
 }
 ```
@@ -89,5 +89,6 @@ If you use this model in your research, please cite:
 ## 📜 License
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+
 
 
