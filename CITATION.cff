@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this model, please cite it as below."
 authors:
-- family-names: "[Your Last Name]"
-  given-names: "[Your First Name]"
+- family-names: "Tanuj"
+  given-names: "Saxena"
 title: "SanskritBERT: A Light Transformer Model for Sanskrit Masked Language Modeling"
 version: 1.0.0
 date-released: 2024-01-30
@@ -13,3 +13,4 @@ citation:
   title: "SanskritBERT: A Light Transformer Model for Sanskrit Masked Language Modeling"
   year: 2024
   url: "https://huggingface.co/[your-username]/SanskritBERT"
+
