@@ -1,13 +1,13 @@
 # SanskritBERT (Light) 🕉️
 
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/YOUR-USERNAME/SanskritBERT)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/tanuj437/SanskritBERT)
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 
 **SanskritBERT (Light)** is a custom-trained Transformer encoder model designed specifically for the Sanskrit language. Optimized for efficiency ("Light" architecture), it is trained on a large corpus of Sanskrit texts using Masked Language Modeling (MLM).
 
 This repository contains the source code, training scripts, and usage examples.
-**The pre-trained model weights are hosted on Hugging Face:** [👉 **Download Weights Here**](https://huggingface.co/YOUR-USERNAME/SanskritBERT)
+**The pre-trained model weights are hosted on Hugging Face:** [👉 **Download Weights Here**](https://huggingface.co/tanuj437/SanskritBERT)
 
 ## 🚀 Model Details
 
@@ -22,8 +22,7 @@ This repository contains the source code, training scripts, and usage examples.
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/SanskritBERT.git
-cd SanskritBERT
+git clone https://github.com/tanuj437/sanskrit-bert-mlm-light.git
 pip install -r requirements.txt
 ```
 
@@ -38,7 +37,7 @@ from transformers import AutoTokenizer, AutoModelForMaskedLM
 import torch
 
 # Load from Hugging Face Hub
-model_name = "YOUR-USERNAME/SanskritBERT"
+model_name = "tanuj437/SanskritBERT"
 
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForMaskedLM.from_pretrained(model_name)
@@ -81,12 +80,13 @@ If you use this model in your research, please cite:
 ```bibtex
 @misc{sanskritbert2024,
   title={SanskritBERT: A Light Transformer Model for Sanskrit},
-  author={[Your Name]},
+  author={[Tanuj Saxena, Soumya Sharma, Kusum Lata]},
   year={2024},
-  howpublished={\url{https://huggingface.co/YOUR-USERNAME/SanskritBERT}},
+  howpublished={\url{https://huggingface.co/tanuj437/SanskritBERT}},
 }
 ```
 
 ## 📜 License
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+
