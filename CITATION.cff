@@ -1,16 +1,17 @@
 cff-version: 1.2.0
 message: "If you use this model, please cite it as below."
 authors:
-- family-names: "Tanuj"
-  given-names: "Saxena"
+- family-names: "Saxena"
+  given-names: "Tanuj"
 title: "SanskritBERT: A Light Transformer Model for Sanskrit Masked Language Modeling"
 version: 1.0.0
-date-released: 2024-01-30
-url: "https://github.com/[your-username]/SanskritBERT"
+date-released: 2026-01-30
+url: "https://github.com/tanuj437/sanskrit-bert-mlm-light"
 input-format: "BibTeX"
 citation: 
   type: article
   title: "SanskritBERT: A Light Transformer Model for Sanskrit Masked Language Modeling"
-  year: 2024
-  url: "https://huggingface.co/[your-username]/SanskritBERT"
+  year: 2026
+  url: "https://huggingface.co/tanuj437/SanskritBERT"
+
 
