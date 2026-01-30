@@ -5,7 +5,7 @@ import argparse
 import os
 from huggingface_hub import hf_hub_download
 
-def predict_mask(text, model_path="YOUR-USERNAME/SanskritBERT", tokenizer_model="sp_unigram_64k.model", top_k=5):
+def predict_mask(text, model_path="tanuj437/SanskritBERT", tokenizer_model="sp_unigram_64k.model", top_k=5):
     """
     Predicts the masked token in a Sanskrit sentence.
     """
@@ -104,3 +104,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     predict_mask(args.text, args.model, args.sp_model)
+
