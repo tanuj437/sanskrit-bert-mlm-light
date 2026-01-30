@@ -17,7 +17,7 @@ This repository contains the source code, training scripts, and usage examples.
 - **Hidden Size**: 256
 - **Heads**: 4
 - **Context Length**: 512
-- **Vocabulary**: 120,000 Sanskrit Subwords
+- **Vocabulary**: 64,000 Sanskrit Subwords
 
 ## 📦 Installation
 
@@ -89,4 +89,5 @@ If you use this model in your research, please cite:
 ## 📜 License
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+
 
