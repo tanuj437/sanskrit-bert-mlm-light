@@ -1,19 +1,30 @@
 cff-version: 1.2.0
 message: "If you use this model, please cite it as below."
-authors:
-- family-names:"Saxena","Sharma","Lata"
-  given-names: "Tanuj","Soumya","Kusum"
+
 title: "SanskritBERT: A Light Transformer Model for Sanskrit Masked Language Modeling"
-version: 1.0.0
+version: "1.0.0"
 date-released: 2026-01-30
-url: "https://github.com/tanuj437/sanskrit-bert-mlm-light"
-input-format: "BibTeX"
-citation: 
+
+authors:
+  - family-names: Saxena
+    given-names: Tanuj
+  - family-names: Sharma
+    given-names: Soumya
+  - family-names: Lata
+    given-names: Kusum
+
+repository-code: "https://github.com/tanuj437/sanskrit-bert-mlm-light"
+url: "https://huggingface.co/tanuj437/SanskritBERT"
+
+preferred-citation:
   type: article
   title: "SanskritBERT: A Light Transformer Model for Sanskrit Masked Language Modeling"
+  authors:
+    - family-names: Saxena
+      given-names: Tanuj
+    - family-names: Sharma
+      given-names: Soumya
+    - family-names: Lata
+      given-names: Kusum
   year: 2026
   url: "https://huggingface.co/tanuj437/SanskritBERT"
-
-
-
-
